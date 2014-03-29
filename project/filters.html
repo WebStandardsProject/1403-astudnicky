@@ -3,9 +3,10 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Looking For Group | A party-building site for gamers.</title>
+	<title>LFG | Search Filters</title>
 	<link rel="stylesheet" href="css/foundation.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto|Roboto+Condensed|Exo+2' rel='stylesheet' type='text/css'>
 	<script src="js/foundation.min.js"></script>
 	<script src="js/vendor/modernizr.js"></script>
 </head>
@@ -46,206 +47,294 @@
 				</li>
 				<li class="divider"></li>
 				<li class="has-form">
-					<a href="#" class="button">Logout</a>
+					<a href="#" class="button effect">Logout</a>
 				</li>
 			</ul>
 		</section>
 	</nav>
 
+	<div class="row">
 
-	<div class="row top">
+		<section class="small-12 medium-8 columns">
+			<h3>Filter Results</h3>
+			<form class="row">
 
-		<div class="small-8 columns">
+				<div class="small-12 medium-6 columns">
 
-			<div class="main">
-				<section id="filters">
-					<h3>Filter Results</h3>
-					<form>
-						<div class="row">
-							<div class="large-6 columns">
+					<div class="row collapse">
+						<input type="text" placeholder="City or Zip">
+					</div>
 
-								<div class="small-12 columns">
-									<input type="text" placeholder="City or Zip">
-								</div>
+					<div class="row collapse">
+						<ul class="button-group even-3">
+							<li><a href="#" class="small button">10 Miles</a></li>
+							<li><a href="#" class="small button">20</a></li>
+							<li><a href="#" class="small button">30+</a></li>
+						</ul>
+					</div>
 
-								<div class="row button-bar">
-									<ul class="button-group">
-										<li><a href="#" class="small button">10 Miles</a></li>
-										<li><a href="#" class="small button">20 Miles</a></li>
-										<li><a href="#" class="small button">30+ Miles</a></li>
-									</ul>
-								</div>
-								<div class="row button-bar">
-									<ul class="button-group">
-										<li><a href="#" class="small button">All Ages</a></li>
-										<li><a href="#" class="small button">18+ Only</a></li>
-										<li><a href="#" class="small button">21+ Only</a></li>
-									</ul>
-								</div>
+					<div class="row collapse">
+						<ul class="button-group even-3">
+							<li><a href="#" class="small button" >Any Age</a></li>
+							<li><a href="#" class="small button" >18+</a></li>
+							<li><a href="#" class="small button" >21+</a></li>
+						</ul>
+					</div>
 
-							</div>
-							<div class="large-6 columns">
+				</div>
 
-								<div class="row collapse">
-									<div class="small-10 columns">
-										<input type="text" placeholder="Platform">
-									</div>
-									<div class="small-2 columns">
-										<a href="#" class="button postfix">List</a>
-									</div>
-								</div>
-								<div class="row button-bar">
-									<ul class="button-group">
-										<li><a href="#" class="small button">Casual</a></li>
-										<li><a href="#" class="small button">Either</a></li>
-										<li><a href="#" class="small button">Competitive</a></li>
-									</ul>
-								</div>
-								<div class="row button-bar">
-									<ul class="button-group">
-										<li><a href="#" class="small button">No Entry Fee</a></li>
-										<li><a href="#" class="small button">Either</a></li>
-										<li><a href="#" class="small button">Paid Entry</a></li>
-									</ul>
-								</div>
+				<div class="small-12 medium-6 columns">
 
-
-							</div>
+					<div class="row collapse">
+						<div class="small-10 columns">
+							<input type="text" placeholder="Platform">
 						</div>
-						<div class="row">
-							<a href="#" class="button expand">Search!</a>
+						<div class="small-2 columns">
+							<a href="#" class="button postfix">List</a>
 						</div>
+					</div>
 
-					</form>
-				</section>
-			</div>
-		</div>
+					<div class="row collapse">
+						<ul class="button-group even-3">
+							<li><a href="#" class="small button">Casual</a></li>
+							<li><a href="#" class="small button">Either</a></li>
+							<li><a href="#" class="small button">Competitive</a></li>
+						</ul>
+					</div>
 
-		<div class="small-4 columns">
+					<div class="row collapse">
+						<ul class="button-group even-3">
+							<li><a href="#" class="small button">Free</a></li>
+							<li><a href="#" class="small button">Either</a></li>
+							<li><a href="#" class="small button">Cover</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row collapse">
+					<a href="results.html" class="button expand">Search!</a>
+				</div>
+
+			</form>
+		</section>
+
+
+		<article class="small-12 medium-4 columns card">
 			<h3>Featured Event</h3>
-			<div class="medium-3 columns">
-				<a href="#"> <span> </span><img src="http://placehold.it/200x200&text=Event Image" alt="Event Image" class=" thumbnail"></a>
+			<div class="small-12 medium-5 columns">							<a href="#"> <span> </span><img src="img/featured.jpg" alt="Event Image" class=" thumbnail"></a>
 			</div>
-			<div class="medium-9 columns">
-				<h5><a href="#">Event Name</a></h5>
-				<p><a href="#">More Info</a></p>
+			<div class="small-12 medium-7 columns">
+				<h5><a href="details.html">$Event Name</a></h5>
+				<p><a href="details.html">More Info</a></p>
 			</div>
-			<ul>
+			<ul class="small-12 columns">
 				<li><strong>Location:</strong> Orlando, FL</li>
 				<li><strong>Date:</strong> 24 March</li>
 				<li><strong>Time:</strong> 6:30pm</li>
 			</ul>
-			<a href="#" class="small button center">View Details</a>
-		</div>
+			<a href="details.html" class="small button expand">View Details</a>
+		</article>
+
 	</div>
 
-</div>
-
-<div class="row bot">
-
-	<div class="small-8 columns">
-
-		<div class="results">
-			<section class="row">
-
-				<div class="medium-3 columns">
-					<a href="#"> <span> </span><img src="http://placehold.it/200x200&text=Event Image" alt="Event Image" class=" thumbnail"></a>
-				</div>
-
-				<div class="medium-9 columns">
-					<h5><a href="#">Retro Games Night</a></h5>
-					<p><a href="#">Player 1 Orlando</a> | <a href="#">More Info</a></p>
-					<ul class="small-block-grid-2">
-						<li>
-							<ul>
-								<li><strong>Location:</strong> Orlando, FL</li>
-								<li><strong>Date:</strong> 16 March</li>
-								<li><strong>Time:</strong> 8:30pm</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li><strong>Platform:</strong> Nintendo 64</li>
-								<li><strong>Type:</strong> Casual</li>
-								<li><strong>Entry Fee:</strong>$5</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-
-				<div class="button-bar medium-12 columns">
-					<ul class="button-group">
-						<li><a href="#" class="small button">Directions</a></li>
-						<li><a href="#" class="small button">Full Info</a></li>
-					</ul>
-					<ul class="button-group">
-						<li><a href="#" class="small button">Share Event</a></li>
-						<li><a href="#" class="small button">Save Event</a></li>
-					</ul>
-				</div>
-
-			</section>
+	<section class="row collapse">
+		<div class="small-12 medium-8 columns">
 
 			<section class="row">
+				<article class="small-12 columns card">
 
-				<div class="medium-3 columns">
-					<a href="#"> <span> </span><img src="http://placehold.it/200x200&text=Event Image" alt="Event Image" class=" thumbnail"></a>
-				</div>
+					<div class="small-12 medium-4 columns">
+						<a href="#"> <span> </span><img src="img/retro.jpg" alt="Event Image" class=" thumbnail"></a>
+					</div>
 
-				<div class="medium-9 columns">
-					<h5><a href="#">League of Legends Tournament</a></h5>
-					<p><a href="#">Orlando Convention Center</a> | <a href="#">More Info</a></p>
-					<ul class="small-block-grid-2">
-						<li>
-							<ul>
-								<li><strong>Location:</strong> Orlando, FL</li>
-								<li><strong>Date:</strong> 24 March</li>
-								<li><strong>Time:</strong> 6:30pm</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li><strong>Platform:</strong> PC</li>
-								<li><strong>Type:</strong> Competitive</li>
-								<li><strong>Entry Fee:</strong>$15</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
+					<div class="small-12 medium-8 columns">
+						<h5><a href="details.html">Retro Games Night</a></h5>
+						<p><a href="details.html">Player 1 Orlando</a> | <a href="details.html">More Info</a></p>
+					</div>
+					<div class="small-12 columns">
+						<ul class="small-block-grid-2">
+							<li>
+								<ul>
+									<li><strong>Location:</strong> Orlando, FL</li>
+									<li><strong>Date:</strong> 16 March</li>
+									<li><strong>Time:</strong> 8:30pm</li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><strong>Platform:</strong> Nintendo 64</li>
+									<li><strong>Type:</strong> Casual</li>
+									<li><strong>Entry Fee:</strong>$5</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 
-				<div class="button-bar medium-12 columns">
-					<ul class="button-group">
-						<li><a href="#" class="small button">Directions</a></li>
-						<li><a href="#" class="small button">Full Info</a></li>
-					</ul>
-					<ul class="button-group">
-						<li><a href="#" class="small button">Share Event</a></li>
-						<li><a href="#" class="small button">Save Event</a></li>
-					</ul>
-				</div>
+					<div class="small-12 medium-6 columns">
+						<ul class="button-group even-2">
+							<li><a href="details.html" class="small button">Directions</a></li>
+							<li><a href="details.html" class="small button">Full Info</a></li>
+						</ul>
+					</div>
+					<div class="small-12 medium-6 columns">
+						<ul class="button-group even-2">
+							<li><a href="details.html" class="small button">Share Event</a></li>
+							<li><a href="agenda.html" class="small button">Save Event</a></li>
+						</ul>
+					</div>
+				</article>
 
+				<article class="small-12 columns card">
+
+					
+					<div class="small-12 medium-4 columns">
+						<a href="details.html"> <span> </span><img src="img/pokemon.jpg" alt="Event Image" class=" thumbnail"></a>
+					</div>
+
+
+					<div class="small-12 medium-8 columns">
+						<h5><a href="details.html">Pokémon Club</a></h5>
+						<p><a href="details.html">Cloak &amp; Blaster Pub</a> | <a href="#">More Info</a></p>
+					</div>
+					<div class="small-12 columns">
+						<ul class="small-block-grid-2">
+							<li>
+								<ul>
+									<li><strong>Location:</strong> Oviedo, FL</li>
+									<li><strong>Date:</strong> 30 March</li>
+									<li><strong>Time:</strong> 8:30pm</li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><strong>Platform:</strong> Gameboy</li>
+									<li><strong>Type:</strong> Casual</li>
+									<li><strong>Entry Fee:</strong> None</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div class="small-12 medium-6 columns">
+						<ul class="button-group even-2">
+							<li><a href="details.html" class="small button">Directions</a></li>
+							<li><a href="details.html" class="small button">Full Info</a></li>
+						</ul>
+					</div>
+					<div class="small-12 medium-6 columns">
+						<ul class="button-group even-2">
+							<li><a href="details.html" class="small button">Share Event</a></li>
+							<li><a href="agenda.html" class="small button">Save Event</a></li>
+						</ul>
+					</div>
+
+				</article>
+				<article class="small-12 columns card">
+
+					
+					<div class="small-12 medium-4 columns">
+						<a href="details.html"> <span> </span><img src="img/cah.jpg" alt="Event Image" class=" thumbnail"></a>
+					</div>
+
+
+					<div class="small-12 medium-8 columns">
+						<h5><a href="details.html">Cards Against Humanity</a></h5>
+						<p><a href="details.html">Cloak &amp; Blaster Pub</a> | <a href="#">More Info</a></p>
+					</div>
+					<div class="small-12 columns">
+						<ul class="small-block-grid-2">
+							<li>
+								<ul>
+									<li><strong>Location:</strong> Oviedo, FL</li>
+									<li><strong>Date:</strong> 3 April</li>
+									<li><strong>Time:</strong> 8:30pm</li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><strong>Platform:</strong> Tabletop</li>
+									<li><strong>Type:</strong> Casual</li>
+									<li><strong>Entry Fee:</strong> $10</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div class="small-12 medium-6 columns">
+						<ul class="button-group even-2">
+							<li><a href="details.html" class="small button">Directions</a></li>
+							<li><a href="details.html" class="small button">Full Info</a></li>
+						</ul>
+					</div>
+					<div class="small-12 medium-6 columns">
+						<ul class="button-group even-2">
+							<li><a href="details.html" class="small button">Share Event</a></li>
+							<li><a href="agenda.html" class="small button">Save Event</a></li>
+						</ul>
+					</div>
+
+				</article>
+				<article class="small-12 columns card">
+
+					
+					<div class="small-12 medium-4 columns">
+						<a href="details.html"> <span> </span><img src="img/LoL.jpg" alt="Event Image" class=" thumbnail"></a>
+					</div>
+
+
+					<div class="small-12 medium-8 columns">
+						<h5><a href="details.html">League of Legends Tournament</a></h5>
+						<p><a href="details.html">Full Sail Library</a> | <a href="#">More Info</a></p>
+					</div>
+					<div class="small-12 columns">
+						<ul class="small-block-grid-2">
+							<li>
+								<ul>
+									<li><strong>Location:</strong> Winter Park, FL</li>
+									<li><strong>Date:</strong> 8 May</li>
+									<li><strong>Time:</strong> 5:30pm</li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><strong>Platform:</strong> PC</li>
+									<li><strong>Type:</strong> Competitive</li>
+									<li><strong>Entry Fee:</strong> None</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div class="small-12 medium-6 columns">
+						<ul class="button-group even-2">
+							<li><a href="details.html" class="small button">Directions</a></li>
+							<li><a href="details.html" class="small button">Full Info</a></li>
+						</ul>
+					</div>
+					<div class="small-12 medium-6 columns">
+						<ul class="button-group even-2">
+							<li><a href="details.html" class="small button">Share Event</a></li>
+							<li><a href="agenda.html" class="small button">Save Event</a></li>
+						</ul>
+					</div>
+
+				</article>
 			</section>
-
 		</div>
-	</div>
-
-	<div class="small-4 columns">
-
-		<div>
-			<a href="#"> <span> </span><img src="http://placehold.it/320x600&text=Advertisement" alt="Event Image" class=" thumbnail"></a>
-		</div>
-
-	</div>
-
-	
+		<aside class="small-12 medium-4 columns">
+			<div class="small-12 small-centered columns">
+				<a href="#"> <span> </span><img src="http://placehold.it/320x600&text=Advertisement" alt="Event Image" class=" thumbnail"></a>
+			</div>
+		</aside>
+	</section>
 </div>
 
 
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/foundation.equalizer.js"></script>
-<script src="js/foundation.min.js"></script>
-<script>
-$(document).foundation();
-</script>
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
+		<script src="js/foundation/foundation.topbar.js"></script>
+		<script src="js/foundation/foundation.equalizer.js"></script>
+		<script>
+		$(document).foundation();
+		</script>
 </body>
 </html>
