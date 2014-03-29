@@ -1,91 +1,176 @@
-
-<!DOCTYPE html>
-<html class="no-js">
-<!-- Author: Andrew Studnicky -->
-<!-- Full Sail Online: Applied Design Tools -->
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
-	<meta charset="utf-8">
-    <title>ADT NavFlow Test Directory</title>
-    <meta name="description" content="This page serves as a landing page for results of user interactivity tests conducted for the Applied Design Tools class taken at Full Sail.">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/main.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Looking For Group | A party-building site for gamers.</title>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto|Roboto+Condensed|Exo+2' rel='stylesheet' type='text/css'>
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/modernizr.js"></script>
+	<script src="js/foundation.min.js"></script>
 </head>
 <body>
-<div id="wrapper">
-  <header>
-     <h1>ADT1401 & WSP1403 Projects</h1>
-  </header>
-  <section class="main">
-    <h2 class="desc-title">Project Description</h2>
-    <p class="description">This page is a hub for assignments submitted for the Applied Design Tools and Web Standards Project courses taken for the Web Design and Development Bachelor of Science program at Full Sail Online.</p>
-  </section>
-    <section class="sec">
-    <table id="tests">
-	  <caption>Web Standards Project</caption>
-       <thead>
-          <tr>
-            <th>Links to Tests</th>
-            <th>Links to Test Results</th> 
-          </tr>
-       </thead>
-       <tbody>
-          <tr class="odd">
-			<td><a href="project">Project Build</a></td>
-		  </tr>
-       </tbody>
-    </table>
-  </section>
-  
-  <section class="sec">
-  <table id="tests">
-	  <caption>ADT - Design Iterations & Usability Testing</caption>
-       <thead>
-          <tr>
-            <th>Links to Tests</th>
-            <th>Links to Test Results</th> 
-          </tr>
-       </thead>
-       <tbody>
-          <tr class="odd">
-             <td><a href="https://usabilityhub.com/do/1ea6e6d74ab1/21cc">Lab 2 - Primary Objective Test</a> (Navigation Test)</td>
-             <td><a href="https://usabilityhub.com/tests/1ea6e6d74ab1/results/a9e70a96148a">Lab 2 Test Results</a></td>
-          </tr>
-          <tr class="even">
-             <td><a href="https://usabilityhub.com/do/a6a6a7c40fba/89c4">Lab 3 - Secondary Objective Test</a> (Navigation Test)</td>
-             <td><a href="https://usabilityhub.com/tests/a6a6a7c40fba/results/eff4cbf8e0cc">Lab 3 Test Results</a></td>
-          </tr>
-		  <tr class="odd">
-             <td><a href="https://usabilityhub.com/do/7ad742c5639b/a592">Lab 4 - Primary Objective Test</a> (Navigation Test)</td>
-             <td><a href="https://usabilityhub.com/tests/7ad742c5639b/results/31247a2e3fa2">Lab 4 Test Results</a></td>
-          </tr>
-          <tr class="even">
-             <td><a href="https://usabilityhub.com/do/285a7f0a86fe/fe9c">Lab 5 - Secondary Objective Test</a> (Navigation Test)</td>
-             <td><a href="https://usabilityhub.com/tests/285a7f0a86fe/results/f30ee5a3e4d5">Lab 5 Test Results</a></td>
-          </tr>
-		  <tr class="odd">
-			<td><a href="http://invis.io/U5MH75PX">Lab 6 - Live user testing</a></td><td><a href="http://www.youtube.com/watch?v=2aKBdl35UWM">Live User Test Video</a></td>
-		  </tr>
-		  <tr class="even">
-			<td colspan='2'><a href="img/ADT1401_Studnicky_Andrew-styleTile.jpg">Lab 7 - Style Tile</a></td>
-		  </tr>
-		  <tr class="odd">
-			<td>
-			<a href="img/ADT_Desktop_Wireframe_Home.jpg">Lab 8 - Desktop Page 1</a><br />
-			<a href="img/ADT_Desktop_Wireframe_EventSearch.jpg">Lab 8 - Desktop Page 2</a><br />
-			<a href="img/ADT_Desktop_Wireframe_EventDetails.jpg">Lab 8 - Desktop Page 3</a></td>
-			<td>
-			<a href="img/ADT1401_Stundicky_Andrew-comp4.jpg">Lab 8 - Mobile Page 1</a></br>
-			<a href="img/ADT1401_Stundicky_Andrew-comp5.jpg">Lab 8 - Mobile Page 2</a></br>
-			<a href="img/ADT1401_Stundicky_Andrew-comp4.jpg">Lab 8 - Mobile Page 3</a>
-			</td>
-		</tr>
-		<tr class="even">
-			<td><a href="http://invis.io/AYN1RGQR">Lab 10 - Live User Testing</a></td><td><a href="www.youtube.com/watch?v=kqyEfYEccI4">Live User Test Video</a></td>
-		</tr>
-       </tbody>
-    </table>
-  </section>
-  <footer><span>&copy; 2013 Andrew Studnicky</span></footer>
-  </div> <!-- #wrapper div ends here-->
-</body>
-</html>
+
+	<nav class="tab-bar show-for-small">
+		<a class="left-off-canvas-toggle menu-icon">
+			<span>Home</span>
+		</a>
+	</nav>
+
+	<nav class="top-bar hide-for-small" data-topbar>
+		<ul class="title-area">
+			<li class="name">
+				<h1><a href="index.html">Home</a></h1>
+			</li>
+		</ul>
+		<section class="top-bar-section">
+			<ul class="left">
+				<li class="divider"></li>
+				<li>
+					<a href="filters.html">Search</a>
+				</li>
+				<li class="divider"></li>
+				<li>
+					<a href="featured.html">Featured</a>
+				</li>
+				<li class="divider"></li>
+			</ul>
+			<ul class="right">
+				<li class="divider"></li>
+				<li>
+					<a href="profile.html">Profile</a>
+				</li>
+				<li class="divider"></li>
+				<li>
+					<a href="agenda.html">Agenda</a>
+				</li>
+				<li class="divider"></li>
+				<li class="has-form">
+					<a href="#" class="button effect">Logout</a>
+				</li>
+			</ul>
+		</section>
+	</nav>
+
+
+	<div class="row" data-equalizer>
+
+		<section class="cta small-12 large-8 columns" data-equalizer-watch>
+			<div class="cta-form">
+				<form class="text-center">
+					<h1>Find nearby events!</h1>
+					<div class="small-12 medium-10 small-centered columns">
+						<label>Enter your city or zip code to get started!
+							<input type="text" placeholder="City or zip code" />
+						</label>
+					</div>
+					<div class="small-12 medium-10 small-centered columns">
+						<ul class="button-group even-3">
+							<li><a href="filters.html" class="small button">10 Miles</a></li>
+							<li><a href="filters.html" class="small button">20 Miles</a></li>
+							<li><a href="filters.html" class="small button">30+ Miles</a></li>
+						</ul>
+					</div>
+					<div class="small-12 columns text-center">
+						<a href="filters.html">Additional Search Filters</a>
+					</div>
+					<div class="small-12 columns text-center">
+						<a href="results.html" class="button expand effect">Search!</a>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<aside class="small-12 large-4 columns" data-equalizer-watch>
+			<div class="row">
+
+				<article class="small-12 medium-6 large-12 columns">
+					<h3>Register as a member!</h3>
+					<ul class="list text-center">
+						<caption>Gain access to these awesome benefits!</caption>
+						<li>Get notifications with our mobile app!</li>
+						<li>Save events to your agenda!</li>
+						<li>Save search preferences!</li>
+						<li>Track tournament stats!</li>
+						<li>Post your own events!</li>
+					</ul>
+					<a href="#" class="small button expand">Register!</a>
+				</article>
+
+
+				<article class="small-12 medium-6 large-12 columns">
+					<h3>Featured Event</h3>
+					<div class="small-5 columns">
+						<a href="#"> <span> </span><img src="img/
+							featured.jpg" alt="Event Image" class=" thumbnail"></a>
+						</div>
+						<div class="small-7 columns">
+							<h5><a href="#">$Event Name</a></h5>
+							<p><a href="details.html">More Info</a></p>
+						</div>
+						<ul class="small-12 columns">
+							<li><strong>Location:</strong> Orlando, FL</li>
+							<li><strong>Date:</strong> 24 March</li>
+							<li><strong>Time:</strong> 6:30pm</li>
+						</ul>
+						<a href="#" class="small button expand">View Details</a>
+					</article>
+				</div>
+
+			</aside>
+
+		</div>
+
+		<div class="row">
+
+			<article class="small-12 medium-4 columns">
+				<div class="card">
+					<h3>Latest News</h3>
+					<ul>
+						<li>Mobile App Updates</li>
+						<li>LoL Season 4 Starts</li>
+						<li>PAX East News</li>
+						<li>Extra-Life 2014</li>
+					</ul>
+				</div>
+				<a href="#" class="small button expand">Developer Blog</a>
+			</article>
+
+			<article class="small-12 medium-4 columns">
+				<div class="card">
+					<h3>Recent Topics</h3>
+					<ul>
+						<li>PC Gaming Master Race</li>
+						<li>HAWKEN on Steam</li>
+						<li>Warcraft Movie Coming?</li>
+						<li>Reaper of Souls</li>
+					</ul>
+				</div>
+				<a href="#" class="small button expand">Community Board</a>
+			</article>
+			<article class="small-12 medium-4 columns card">
+				<h3>On your Agenda</h3>
+				<div class="small-5 columns">
+					<a href="#"> <span> </span><img src="img/agenda.jpg" alt="Event Image" class=" thumbnail"></a>
+				</div>
+				<div class="small-7 columns">
+					<h5><a href="#">$Event Name</a></h5>
+					<p><a href="#">More Info</a></p>
+				</div>
+				<ul class="small-12 columns">
+					<li><strong>Location:</strong> Orlando, FL</li>
+					<li><strong>Date:</strong> 24 March</li>
+					<li><strong>Time:</strong> 6:30pm</li>
+				</ul>
+				<a href="agenda.html" class="small button expand">View Details</a>
+			</article>
+		</div>
+		<script src="js/foundation/foundation.topbar.js"></script>
+		<script src="js/foundation/foundation.equalizer.js"></script>
+		<script>
+		$(document).foundation();
+		</script>
+	</body>
+	</html>
